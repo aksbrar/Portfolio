@@ -7,6 +7,11 @@
   --list-header-option : #32362A;
 }
 
+@font-face {
+  font-family: 'pricedown';
+  src: url('font/pd.otf') format('opentype');
+}
+
 *{
   margin: 0;
   padding: 0;
