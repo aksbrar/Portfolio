@@ -5,10 +5,12 @@
   --list-alt-2 : #1D1F18;
   --list-selected : #646A5C;
   --list-header-option : #32362A;
+  --universal-green-color : #c5d4a4;
 }
 
 .main-container{
   height: 100vh;
+  background-color: ;
 }
 
 .home-left{
