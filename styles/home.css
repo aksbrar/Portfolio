@@ -8,6 +8,7 @@
   --universal-green-color : #c5d4a4;
 }
 
+/* Main container */
 .main-container{
   height: 100vh;
   background: var(--universal-green-color);
@@ -16,6 +17,7 @@
   background-position: 20% top;
 }
 
+/* Starting of left side! */
 .home-left{
   display: flex;
   flex-direction: column;
@@ -39,7 +41,5 @@
   font-size: 2.5em;
 }
 
-.home-navigation li a:first-child::hover{
-  color: yellow;
-}
+
 
