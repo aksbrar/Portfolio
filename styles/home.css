@@ -27,19 +27,33 @@
 /* Logo */
 .home-left img{
   width: 330px;
-  margin: 2.35rem 0;
+  margin: 2rem 0 1.7rem;
 }
 
 /* Navigation */
 .home-navigation li{
   list-style: none;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .home-navigation li a{
   text-decoration: none;
-  color: var(--overall-text);
+  color: var(--left-button-bg);
   font-size: 2.5em;
+  display: block;
+  padding: 10px 10px;
+}
+.res-li:hover,
+.con-li:hover{
+  background-color: var(--left-button-bg);
+  clip-path: polygon(69% 8%, 100% 11%, 100% 88%, 41% 97%, 0% 100%, 0% 10%);
+  color: black;
 }
 
+.pro-li:hover,
+.tool-li:hover{
+  background-color: var(--left-button-bg);
+  clip-path: polygon(33% 6%, 100% 0, 100% 100%, 53% 98%, 1% 89%, 0 14%);
+  color: black;
+}
 
 
