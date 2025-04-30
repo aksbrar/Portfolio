@@ -10,20 +10,22 @@
 
 .main-container{
   height: 100vh;
-  background-color: ;
+  background: var(--universal-green-color);
+  background-image: url("../images/aks-gta.png");
+  background-repeat: no-repeat;
+  background-position: 20% top;
 }
 
 .home-left{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
 }
 
 /* Logo */
 .home-left img{
   width: 330px;
-  margin: 3rem 0;
+  margin: 2.35rem 0;
 }
 
 /* Navigation */
@@ -37,4 +39,7 @@
   font-size: 2.5em;
 }
 
+.home-navigation li a:first-child::hover{
+  color: yellow;
+}
 
