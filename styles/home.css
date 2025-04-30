@@ -7,3 +7,12 @@
   --list-header-option : #32362A;
 }
 
+.home-navigation li{
+  list-style: none;
+}
+.home-navigation li a{
+  text-decoration: none;
+  color: var(--overall-text);
+}
+
+
